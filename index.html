@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>S8UL Esports India</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="Stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div class="flex">
+            <div class="logo">
+                <a href="#"><img src="logo.jpg"
+                        alt="Game Warrior Logo" /></a>
+            </div>
+            <nav>
+                <button id="nav-toggle" class="hamburger-menu">
+                    <span class="strip"></span>
+                    <span class="strip"></span>
+                    <span class="strip"></span>
+                </button>
+                <ul id="nav-menu-container">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Games.html">Games</a></li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <main>
+        <section id="hero-image">
+            <div class="hero-marketing-text">
+                <h1>The Best <span>Games</span> Out There</h1>
+                <h5>All the best battle royale and shooting games and their tournaments are organised. In game purchases
+                    will be availaible soon. </h5>
+                <button>Read More</button>
+            </div>
+        </section>
+
+        <section id="latest-news">
+            <div class="flex">
+                <h5>Latest News</h5>
+                <div id="latest-news-container">
+                    <div class="latest-news-item">
+                        <span class="badge new">New</span>
+                        <span class="latest-news-text">Pubg Mobile INDIA to be released soon.   Many creators and news sources have 
+                            officially confirmmed the release of pubg mobile </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="game-types-boxes">
+            <div class="flex">
+                <div class="box new">
+                    <div class="shade"></div>
+                    <span class="badge new">New</span>
+                    <div class="contents">
+                        <h4>Story Games</h4>
+                        <p>Intense story games,epic graphics and much more</p>
+                        <a href="#" class="comments">3 Comments</a>
+                    </div>
+                </div>
+
+                <div class="box strategy">
+                    <div class="shade"></div>
+                    <span class="badge strategy">New</span>
+                    <div class="contents">
+                        <h4>Action Games</h4>
+                        <p>Fighting, action and destuction is all what you get here </p>
+                        <a href="#" class="comments">3 Comments</a>
+                    </div>
+                </div>
+
+                <div class="box rpg">
+                    <div class="shade"></div>
+                    <span class="badge rpg">New</span>
+                    <div class="contents">
+                        <h4>Battle Royale</h4>
+                        <p>FPS shooter with upto 100 players at a time </p>
+                        <a href="#" class="comments">3 Comments</a>
+                    </div>
+                </div>
+
+                <div class="box racing">
+                    <div class="shade"></div>
+                    <span class="badge racing">New</span>
+                    <div class="contents">
+                        <h4>Racing Games</h4>
+                        <p>Faster, Faster, until the thrill of speed overcomes the fear of death. ...</p>
+                        <a href="#" class="comments">3 Comments</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="tournaments">
+            <div class="flex">
+                <span class="badge tournaments">Tournaments</span>
+                <div class="box">
+                    <span class="badge premium-tournament">Premium Tournament</span>
+                    <div class="tournaments-image">
+                        <img src="valorant.jpg" />
+                    </div>
+                    <div class="tournaments-content">
+                        <h3>Valorant</h3>
+                        <div><label>Tournament Begins:</label> <strong>June 20, 2021</strong></div>
+                        <div><label>Tournament Ends:</label> <strong>July 01, 2021</strong></div>
+                        <div><label>Participants:</label> <strong>10 teams</strong></div>
+                        <div><label>Tournament Organizer:</label> <strong>Admin</strong></div>
+                        <div><label class="prizes">Prizes:</label> <label>1st place 5000, 2nd place: 3000, 3rd place:
+                                2000</label></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="badge premium-tournament">Premium Tournament</span>
+                    <div class="tournaments-image">
+                        <img src="pubg.jpg" />
+                    </div>
+                    <div class="tournaments-content">
+                        <h3>Pubg Mobile</h3>
+                        <div><label>Tournament Begins:</label> <strong>June 20, 2021</strong></div>
+                        <div><label>Tournament Ends:</label> <strong>July 01, 2021</strong></div>
+                        <div><label>Participants:</label> <strong>16 teams</strong></div>
+                        <div><label>Tournament Organizer:</label> <strong>Admin</strong></div>
+                        <div><label class="prizes">Prizes:</label> <label>1st place 5000, 2nd place: 3000, 3rd place:
+                                2000</label></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </main>
+    <footer>
+    <div class="flex">
+        <small>Contact-123456789</a>.</small>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/">Facebook</a>
+            </li>
+
+            <li>
+                <a href="https://www.instagram.com/">Instagram</a>
+            </li>
+
+            <li>
+                <a href="https://twitter.com/?lang=en">Twitter</a>
+            </li>
+
+            <li>
+                <a href="https://www.linkedin.com/">Linkedin</a>
+            </li>
+            <li>
+                <a href="file:///C:/Users/91701/Desktop/website2/index.html#">Home</a>
+            </li>
+
+            
+        </ul>
+    </div>
+</footer>
+
+
+    <script>
+        document.getElementById('nav-toggle').addEventListener('click', function () {
+            let navMenu = document.getElementById('nav-menu-container');
+            navMenu.style.display = navMenu.offsetParent === null ? 'block' : 'none';
+        });
+    </script>
+</body>
+
+</html>
